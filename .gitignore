@@ -4,3 +4,6 @@ dist
 .env
 .vscode
 .idea
+
+# Local Netlify folder
+.netlify
