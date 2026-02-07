@@ -1,0 +1,419 @@
+<!-- Updated: 2026-02-06 22:29 -->
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picorad | İleri Medikal Teknoloji & Sağlık Çözümleri</title>
+    <meta name="description"
+        content="Medikal cihaz sektöründe güvenilir teknoloji ortağınız. Tanı ve tedavi sistemlerinde yenilikçi çözümler.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css?v=2">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="desktop-logo">picorad<span class="logo-dot">.</span></span>
+                <img src="assets/images/logo.svg" alt="Picorad" class="mobile-logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Anasayfa</a></li>
+                <li class="has-megamenu">
+                    <a href="javascript:void(0)" id="productsMenuTrigger">
+                        Ürünlerimiz
+                        <svg class="menu-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </a>
+                </li>
+                <li><a href="#solutions">Çözümlerimiz</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary navbar-btn">Teklif Al</a>
+
+            <!-- Mega Menu - Independent of nav-links -->
+            <div class="mega-menu" id="megaMenu">
+                <div class="mega-menu-container">
+                    <!-- Left: Categories -->
+                    <div class="mega-menu-categories">
+                        <h3>Kategoriler</h3>
+                        <ul class="category-list">
+                            <li class="category-item active" data-category="kalibrasyon">
+                                <span class="category-indicator"></span>
+                                <a href="kalibrasyon-kaynaklari.html"
+                                    style="color: inherit; text-decoration: none; display: block;">Radyoaktif
+                                    Kalibrasyon Kaynakları</a>
+                            </li>
+                            <li class="category-item" data-category="olcum">
+                                <span class="category-indicator"></span>
+                                Radyasyon Ölçüm Sistemleri
+                            </li>
+                            <li class="category-item" data-category="korunum">
+                                <span class="category-indicator"></span>
+                                Radyokorunum Ekipmanları
+                            </li>
+                            <li class="category-item" data-category="gama">
+                                <span class="category-indicator"></span>
+                                Gama Prob
+                            </li>
+                            <li class="category-item" data-category="otomasyon">
+                                <span class="category-indicator"></span>
+                                Radyofarmosötik Üretim Otomasyonu
+                            </li>
+                            <li class="category-item" data-category="iyot">
+                                <span class="category-indicator"></span>
+                                İyot-131 Takip Sistemleri
+                            </li>
+                            <li class="category-item" data-category="fantom">
+                                <span class="category-indicator"></span>
+                                Fantom
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Right: Product Showcase -->
+                    <div class="mega-menu-products">
+                        <div class="product-showcase">
+                            <div class="showcase-card">
+                                <div class="showcase-image">
+                                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop&q=80"
+                                        alt="Kalibrasyon Sistemleri">
+                                </div>
+                                <div class="showcase-card-content">
+                                    <h4>Kalibrasyon Sistemleri</h4>
+                                    <p>Hassas kalibrasyon ve kalite kontrol çözümleri</p>
+                                </div>
+                            </div>
+                            <div class="showcase-card">
+                                <div class="showcase-image">
+                                    <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=400&h=300&fit=crop&q=80"
+                                        alt="Ölçüm Cihazları">
+                                </div>
+                                <div class="showcase-card-content">
+                                    <h4>Ölçüm Cihazları</h4>
+                                    <p>Profesyonel radyasyon dedektörleri</p>
+                                </div>
+                            </div>
+                            <div class="showcase-card">
+                                <div class="showcase-image">
+                                    <img src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=400&h=300&fit=crop&q=80"
+                                        alt="Koruma Ekipmanları">
+                                </div>
+                                <div class="showcase-card-content">
+                                    <h4>Koruma Ekipmanları</h4>
+                                    <p>Güvenli çalışma ortamı için kurşun siperler</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Container -->
+        <div class="mobile-menu-overlay">
+            <ul class="mobile-nav-links">
+                <li><a href="#hero">Anasayfa</a></li>
+                <li class="has-megamenu">
+                    <a href="javascript:void(0)" id="mobileProductsMenuTrigger">
+                        Ürünlerimiz
+                        <svg class="menu-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </a>
+                    <ul class="mobile-dropdown">
+                        <li><a href="kalibrasyon-kaynaklari.html">Radyoaktif Kalibrasyon Kaynakları</a></li>
+                        <li><a href="#">Radyasyon Ölçüm Sistemleri</a></li>
+                        <li><a href="#">Radyokorunum Ekipmanları</a></li>
+                        <li><a href="#">Gama Prob</a></li>
+                        <li><a href="#">Radyofarmosötik Üretim</a></li>
+                    </ul>
+                </li>
+                <li><a href="#solutions">Çözümlerimiz</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary mobile-cta">Teklif Al</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-label">Geleceğin Sağlık Teknolojileri</span>
+                <h1 class="hero-title">Medikal İnovasyonun<br>
+                    <span class="desktop-static-text">Yeni Standartları.</span>
+                    <div class="hero-rotator mobile-only">
+                        <div class="rotator-track">
+                            <span class="rotate-item">Güvenilir Yüzü</span>
+                            <span class="rotate-item">Gelecek Vizyonu</span>
+                            <span class="rotate-item">Teknolojik Gücü</span>
+                            <span class="rotate-item">Güvenilir Yüzü</span> <!-- Duplicate first for seamless loop -->
+                        </div>
+                    </div>
+                </h1>
+                <p class="hero-text">
+                    İleri teknoloji tanı ve tedavi çözümleriyle sağlık profesyonellerinin yanındayız.
+                </p>
+                <div class="hero-actions">
+                    <a href="#products" class="btn btn-primary">Ürünleri Keşfet</a>
+                    <a href="#solutions" class="btn btn-outline">Çözümlerimiz</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="assets/images/hero-device.png" alt="Picorad Advanced Medical Device" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Product Categories -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Ürün Grupları</span>
+                <h2>Kategoriye Göre İnceleyin</h2>
+            </div>
+
+            <div class="product-grid">
+                <!-- Category 1 -->
+                <a href="kalibrasyon-kaynaklari.html" class="product-card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" />
+                            <circle cx="12" cy="12" r="6" />
+                            <circle cx="12" cy="12" r="2" />
+                            <path d="M12 2v4M12 18v4M2 12h4M18 12h4" />
+                        </svg>
+                    </div>
+                    <h3>Radyoaktif Kalibrasyon Kaynakları</h3>
+                    <p>Kalibrasyon ve Kalite Kontrol</p>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </a>
+
+                <!-- Category 2 -->
+                <div class="product-card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2" />
+                            <path d="M9 9h6M9 12h6M9 15h4" />
+                            <circle cx="18" cy="6" r="2" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3>Radyasyon Ölçüm Sistemleri</h3>
+                    <p>Dozimetre ve Detektörler</p>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="product-card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path
+                                d="M12 2L12 22M12 2C8 4 4 8 4 12C4 16 8 20 12 22M12 2C16 4 20 8 20 12C20 16 16 20 12 22" />
+                            <circle cx="12" cy="12" r="3" />
+                        </svg>
+                    </div>
+                    <h3>Radyokorunum Ekipmanları</h3>
+                    <p>Kurşun Önlükler ve Kalkanlar</p>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Category 4 -->
+                <div class="product-card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <circle cx="12" cy="12" r="3" />
+                            <path d="M12 2v3M12 19v3M2 12h3M19 12h3" />
+                            <path d="M6 18l2-2M16 8l2-2M6 6l2 2M16 16l2 2" />
+                        </svg>
+                    </div>
+                    <h3>Gama Prob</h3>
+                    <p>Cerrahi Gama Dedektörleri</p>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Category 5 -->
+                <div class="product-card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M9 2v6l-3 12h12l-3-12V2" />
+                            <path d="M6 8h12" />
+                            <circle cx="12" cy="17" r="1" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3>Radyofarmosötik Üretim Otomasyonu</h3>
+                    <p>Dozaj ve Sentez Sistemleri</p>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Category 6 -->
+                <div class="product-card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <rect x="4" y="4" width="16" height="16" rx="2" />
+                            <path d="M8 10h8M8 14h8" />
+                            <circle cx="16" cy="8" r="2" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3>İyot-131 Takip Sistemleri</h3>
+                    <p>Hasta İzleme ve Radyasyon Güvenliği</p>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Category 7 -->
+                <div class="product-card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <circle cx="12" cy="7" r="4" />
+                            <path d="M5 20c0-4 3-7 7-7s7 3 7 7" />
+                        </svg>
+                    </div>
+                    <h3>Fantom</h3>
+                    <p>Kalibrasyon Fantomları</p>
+                    <div class="card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition Section -->
+    <section class="value-prop-section">
+        <div class="container value-prop-container">
+            <div class="value-image">
+                <img src="assets/images/capsules.jpg" alt="Medikal Tedavi Kalitesi" class="capsule-visual">
+            </div>
+            <div class="value-content">
+                <h2>Önceliğimiz ürünlerimiz ile hastaların tedavi kalitesini iyileştirmektir.</h2>
+                <ul class="value-list">
+                    <li>
+                        <span class="check-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </span>
+                        En uygun fiyat garantisi.
+                    </li>
+                    <li>
+                        <span class="check-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </span>
+                        En yeni teknolojiler.
+                    </li>
+                    <li>
+                        <span class="check-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </span>
+                        Geniş ürün yelpazemiz.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo footer-logo">
+                        <span class="desktop-logo">picorad<span class="logo-dot">.</span></span>
+                        <img src="assets/images/logo.svg" alt="Picorad" class="mobile-logo-img">
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <h4>Kurumsal</h4>
+                    <a href="#">Hakkımızda</a>
+                    <a href="#">Kariyer</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Ürünler</h4>
+                    <a href="#">Tanı Sistemleri</a>
+                    <a href="#">Tedavi Çözümleri</a>
+                    <a href="#">Tüm Kategoriler</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>İletişim</h4>
+                    <p>info@picorad.com</p>
+                    <p>+90 212 000 00 00</p>
+                    <p>İstanbul, Türkiye</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Picorad Medikal Sistemleri. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>

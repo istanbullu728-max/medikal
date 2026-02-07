@@ -1,0 +1,330 @@
+<!-- Updated: 2026-02-06 22:56 -->
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Picorad Medical</title>
+    <link rel="stylesheet" href="styles/main.css?v=2">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="desktop-logo">picorad<span class="logo-dot">.</span></span>
+                <img src="assets/images/logo.svg" alt="Picorad" class="mobile-logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Anasayfa</a></li>
+                <li class="has-megamenu">
+                    <a href="javascript:void(0)" id="productsMenuTrigger">
+                        Ürünlerimiz
+                        <svg class="menu-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </a>
+                </li>
+                <li><a href="index.html#solutions">Çözümlerimiz</a></li>
+                <li><a href="iletisim.html" class="active">İletişim</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary navbar-btn">Teklif Al</a>
+
+            <!-- Mega Menu - Independent of nav-links -->
+            <div class="mega-menu" id="megaMenu">
+                <div class="mega-menu-container">
+                    <!-- Left: Categories -->
+                    <div class="mega-menu-categories">
+                        <h3>Kategoriler</h3>
+                        <ul class="category-list">
+                            <li class="category-item active">
+                                <span class="category-indicator"></span>
+                                <a href="kalibrasyon-kaynaklari.html"
+                                    style="color: inherit; text-decoration: none; display: block;">Radyoaktif
+                                    Kalibrasyon Kaynakları</a>
+                            </li>
+                            <li class="category-item">
+                                <span class="category-indicator"></span>
+                                Radyasyon Ölçüm Sistemleri
+                            </li>
+                            <li class="category-item">
+                                <span class="category-indicator"></span>
+                                Radyokorunum Ekipmanları
+                            </li>
+                            <li class="category-item">
+                                <span class="category-indicator"></span>
+                                Gama Prob
+                            </li>
+                            <li class="category-item">
+                                <span class="category-indicator"></span>
+                                Radyofarmosötik Üretim Otomasyonu
+                            </li>
+                            <li class="category-item">
+                                <span class="category-indicator"></span>
+                                İyot-131 Takip Sistemleri
+                            </li>
+                            <li class="category-item">
+                                <span class="category-indicator"></span>
+                                Fantom
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Right: Product Showcase -->
+                    <div class="mega-menu-products">
+                        <div class="product-showcase">
+                            <div class="showcase-card">
+                                <div class="showcase-image">
+                                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop&q=80"
+                                        alt="Kalibrasyon Sistemleri">
+                                </div>
+                                <div class="showcase-card-content">
+                                    <h4>Kalibrasyon Sistemleri</h4>
+                                    <p>Hassas kalibrasyon ve kalite kontrol çözümleri</p>
+                                </div>
+                            </div>
+                            <div class="showcase-card">
+                                <div class="showcase-image">
+                                    <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=400&h=300&fit=crop&q=80"
+                                        alt="Ölçüm Cihazları">
+                                </div>
+                                <div class="showcase-card-content">
+                                    <h4>Ölçüm Cihazları</h4>
+                                    <p>Profesyonel radyasyon dedektörleri</p>
+                                </div>
+                            </div>
+                            <div class="showcase-card">
+                                <div class="showcase-image">
+                                    <img src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=400&h=300&fit=crop&q=80"
+                                        alt="Koruma Ekipmanları">
+                                </div>
+                                <div class="showcase-card-content">
+                                    <h4>Koruma Ekipmanları</h4>
+                                    <p>Güvenli çalışma ortamı için kurşun siperler</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Container -->
+        <div class="mobile-menu-overlay">
+            <ul class="mobile-nav-links">
+                <li><a href="index.html">Anasayfa</a></li>
+                <li class="has-megamenu">
+                    <a href="javascript:void(0)" id="mobileProductsMenuTrigger">
+                        Ürünlerimiz
+                        <svg class="menu-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </a>
+                    <ul class="mobile-dropdown">
+                        <li><a href="kalibrasyon-kaynaklari.html">Radyoaktif Kalibrasyon Kaynakları</a></li>
+                        <li><a href="#">Radyasyon Ölçüm Sistemleri</a></li>
+                        <li><a href="#">Radyokorunum Ekipmanları</a></li>
+                        <li><a href="#">Gama Prob</a></li>
+                        <li><a href="#">Radyofarmosötik Üretim</a></li>
+                    </ul>
+                </li>
+                <li><a href="#solutions">Çözümlerimiz</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary mobile-cta">Teklif Al</a>
+        </div>
+    </nav>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content">
+                <span class="hero-label">Bize Ulaşın</span>
+                <h1 class="hero-title">Size Nasıl Yardımcı<br>Olabiliriz?</h1>
+                <p class="hero-text">
+                    Ürünlerimiz hakkında detaylı bilgi almak, teklif oluşturmak veya sorularınızı iletmek için bizimle
+                    iletişime geçin.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>İletişim Bilgileri</h2>
+                    <p class="contact-intro">Aşağıdaki kanallardan bize ulaşabilir veya formu doldurarak mesaj
+                        gönderebilirsiniz.</p>
+
+                    <div class="info-cards">
+                        <!-- Email -->
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                    <polyline points="22,6 12,13 2,6" />
+                                </svg>
+                            </div>
+                            <div class="info-content">
+                                <h3>E-posta</h3>
+                                <a href="mailto:info@picorad.com">info@picorad.com</a>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                                </svg>
+                            </div>
+                            <div class="info-content">
+                                <h3>Telefon</h3>
+                                <a href="tel:+902123456789">+90 212 345 67 89</a>
+                            </div>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                            </div>
+                            <div class="info-content">
+                                <h3>Adres</h3>
+                                <p>Teknoloji Geliştirme Bölgesi<br>Maslak, İstanbul 34485</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Ad Soyad *</label>
+                                <input type="text" id="name" name="name" required placeholder="Adınız ve soyadınız">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Kurum</label>
+                                <input type="text" id="company" name="company" placeholder="Kurum adı (opsiyonel)">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">E-posta *</label>
+                                <input type="email" id="email" name="email" required placeholder="ornek@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefon</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+90 (XXX) XXX XX XX">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Konu *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Lütfen bir konu seçin</option>
+                                <option value="product">Ürün Bilgisi</option>
+                                <option value="quote">Teklif Talebi</option>
+                                <option value="support">Teknik Destek</option>
+                                <option value="other">Diğer</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mesajınız *</label>
+                            <textarea id="message" name="message" required rows="6"
+                                placeholder="Mesajınızı buraya yazın..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            Mesaj Gönder
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo footer-logo">
+                        <span class="desktop-logo">picorad<span class="logo-dot">.</span></span>
+                        <img src="assets/images/logo.png" alt="Picorad" class="mobile-logo-img">
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <h4>Kurumsal</h4>
+                    <a href="#">Hakkımızda</a>
+                    <a href="#">Kariyer</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Ürünler</h4>
+                    <a href="#">Tanı Sistemleri</a>
+                    <a href="#">Tedavi Çözümleri</a>
+                    <a href="#">Tüm Kategoriler</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>İletişim</h4>
+                    <p>info@picorad.com</p>
+                    <p>+90 212 000 00 00</p>
+                    <p>İstanbul, Türkiye</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Picorad Medikal Sistemleri. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+    <script>
+        // Contact form handling
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+
+            // Show success message (in production, send to server)
+            alert('Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.');
+
+            // Reset form
+            this.reset();
+        });
+    </script>
+</body>
+
+</html>

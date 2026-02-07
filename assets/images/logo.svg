@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" class="picorad-logo">
+  <!-- Icon Part - Stylized "P" with arcs -->
+  <g transform="translate(10, 15)">
+    <!-- Outer dark arc (left side) -->
+    <path d="M 0 52 A 52 52 0 0 1 52 0 L 52 10 A 42 42 0 0 0 10 52 Z" 
+          fill="#4A5568" />
+    
+    <!-- Inner pink/red arc (right side) -->
+    <path d="M 52 0 A 52 52 0 0 1 104 52 L 94 52 A 42 42 0 0 0 52 10 Z" 
+          fill="#E91E63" />
+    
+    <!-- Bottom pink curve -->
+    <path d="M 94 52 A 42 42 0 0 1 52 94 L 52 84 A 32 32 0 0 0 84 52 Z" 
+          fill="#E91E63" />
+    
+    <!-- Inner "p" shape in dark -->
+    <path d="M 35 30 L 35 80 M 35 45 Q 35 30 52 30 Q 70 30 70 45 Q 70 60 52 60 Q 35 60 35 45" 
+          stroke="#2D3748" 
+          stroke-width="6" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Text Part - "PICORAD" -->
+  <g transform="translate(130, 70)">
+    <text font-family="'Outfit', 'Arial', sans-serif" 
+          font-size="48" 
+          font-weight="600" 
+          fill="#2D3748" 
+          letter-spacing="2">
+      PICORAD
+    </text>
+  </g>
+  
+  <!-- Subtitle -->
+  <g transform="translate(132, 95)">
+    <text font-family="'Inter', 'Arial', sans-serif" 
+          font-size="13" 
+          font-weight="400" 
+          fill="#64748B" 
+          letter-spacing="0.5">
+      Medikal Sanayi ve Ticaret Ltd. Şti.
+    </text>
+  </g>
+</svg>
