@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const mobileToggle = document.querySelector('.mobile-toggle');
     const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
     const mobileLinks = document.querySelectorAll('.mobile-nav-links a, .mobile-cta');
+    const mobileMenuClose = document.querySelector('.mobile-menu-close');
 
     if (mobileToggle && mobileMenuOverlay) {
         mobileToggle.addEventListener('click', () => {
@@ -37,6 +38,14 @@ document.addEventListener('DOMContentLoaded', () => {
             mobileMenuOverlay.classList.toggle('active');
             document.body.classList.toggle('menu-open');
         });
+
+        if (mobileMenuClose) {
+            mobileMenuClose.addEventListener('click', () => {
+                mobileToggle.classList.remove('active');
+                mobileMenuOverlay.classList.remove('active');
+                document.body.classList.remove('menu-open');
+            });
+        }
 
         // Close menu when a link is clicked (excluding dropdown triggers)
         mobileLinks.forEach(link => {
